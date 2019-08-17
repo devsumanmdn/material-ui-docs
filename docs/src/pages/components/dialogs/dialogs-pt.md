@@ -54,7 +54,7 @@ Os formulários de diálogo permitem que usuários preencham campos dentro de um
 
 ## Diálogos customizados
 
-Aqui está um exemplo de customização do componente. You can learn more about this in the [overrides documentation page](/customization/components/).
+Aqui está um exemplo de customização do componente. Você pode aprender mais sobre isso na [página de documentação de sobrescritas](/customization/components/).
 
 A caixa de diálogo tem um botão de fechar para facilitar a utilização.
 
