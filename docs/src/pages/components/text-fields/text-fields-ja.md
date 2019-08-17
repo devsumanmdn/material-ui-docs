@@ -7,7 +7,7 @@ components: FilledInput, FormControl, FormHelperText, Input, InputAdornment, Inp
 
 <p class="description">Text fieldを使用すると、ユーザーはテキストを入力および編集できます。</p>
 
-[Text fields](https://material.io/design/components/text-fields.html) allow users to enter text into a UI. They typically appear in forms and dialogs.
+[テキストフィールド](https://material. io/design/components/text-fields. html) 使用すると、ユーザーはUIにテキストを入力できます。 通常、フォームとダイアログに表示されます。
 
 ## TextField
 
@@ -99,7 +99,7 @@ components: FilledInput, FormControl, FormHelperText, Input, InputAdornment, Inp
 
 ### フローティングラベル
 
-The floating label is absolutely positioned, it won't impact the layout of the page. You need to make sure that the input is larger than the label to display correctly.
+フローティングラベルは絶対位置に配置され、ページのレイアウトには影響しません。 You need to make sure that the input is larger than the label to display correctly.
 
 ## サードパーティの入力ライブラリとの統合
 
