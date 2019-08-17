@@ -43,7 +43,7 @@ components: FilledInput, FormControl, FormHelperText, Input, InputAdornment, Inp
 
 ## Customized inputs
 
-Here are some examples of customizing the component. 詳細については、 [オーバーライドのドキュメントページ](/customization/components/)を参照してください。
+コンポーネントのカスタマイズの例を次に示します。 詳細については、 [overrides documentation page](/customization/components/)を参照してください。
 
 {{"demo": "pages/components/text-fields/CustomizedInputs.js"}}
 
@@ -79,11 +79,11 @@ Here are some examples of customizing the component. 詳細については、 [�
 
 ## 制限
 
-### Shrink
+### シュリンク
 
 入力ラベルの「shrink」状態は必ずしも正しくありません。 入力が何かを表示しているとすぐに入力ラベルは縮小するはずです。 状況によっては、「shrink」状態（数値入力、日時入力、ストライプ入力）を判別できません。 重複があるかもしれません。
 
-![shrink](/static/images/text-fields/shrink.png)
+![シュリンク](/static/images/text-fields/shrink.png)
 
 この問題を回避するにはラベルの"shrink"状態を以下のように強制する必要があります。
 
@@ -97,13 +97,13 @@ Here are some examples of customizing the component. 詳細については、 [�
 <InputLabel shrink>Contagem</InputLabel>
 ```
 
-### Floating label
+### フローティングラベル
 
 The floating label is absolutely positioned, it won't impact the layout of the page. You need to make sure that the input is larger than the label to display correctly.
 
 ## サードパーティの入力ライブラリとの統合
 
-サードパーティのライブラリを使って入力をフォーマットすることができます。 `inputComponent` プロパティを使用して、 `<input>` 要素のカスタム実装を提供する必要があります。
+You can use third-party libraries to format an input. You have to provide a custom implementation of the `<input>` element with the `inputComponent` property.
 
 次のデモでは、[react-text-mask](https://github.com/text-mask/text-mask) と[react-number-format](https://github.com/s-yadav/react-number-format)ライブラリを使用します。 The same concept could be applied to [e.g. react-stripe-element](https://github.com/mui-org/material-ui/issues/16037).
 
