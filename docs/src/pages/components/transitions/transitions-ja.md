@@ -3,13 +3,13 @@ title: Transition React component
 components: Collapse, Fade, Grow, Slide, Zoom
 ---
 
-# Transições
+# Transitions
 
-<p class="description">Transition helps make a UI expressive and easy to use.</p>
+<p class="description">Transitionは、UIを表現力豊かで使いやすくするのに役立ちます。</p>
 
-Material-UI provides a number of transitions that can be used to introduce some basic [motion](https://material.io/design/motion/) to your applications components.
+Material-UIは、いくつかの基本的な [モーション](https://material.io/design/motion/) をアプリケーションコンポーネントに導入するために使用できる多くのトランジションを提供します。
 
-To better support server rendering Material-UI provides a `style` property to the children of some transition components (Fade, Grow, Zoom, Slide). The `style` property must be applied to the DOM for the animation to work as expected.
+サーバーレンダリングをより適切にサポートするために、Material-UIはいくつかの遷移コンポーネント（フェード、成長、ズーム、スライド）の子に `スタイル` プロパティ を提供します。 アニメーションが期待どおりに機能するには、 `スタイル` プロパティをDOMに適用する必要があります。
 
 ```jsx
 // The `props` object contains a `style` property.
