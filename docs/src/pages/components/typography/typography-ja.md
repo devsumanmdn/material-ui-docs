@@ -42,13 +42,13 @@ import 'typeface-roboto';
 
 ## テーマ
 
-状況によっては、 `Typography` コンポーネントを使用できない場合があります。 Hopefully, you might be able to take advantage of the [`typography`](/customization/default-theme/?expend-path=$.typography) keys of the theme.
+状況によっては、 `Typography` コンポーネントを使用できない場合があります。 このテーマのe [`typography`](/customization/default-theme/?expend-path=$.typography)キーを活用できることを願っています。
 
 {{"demo": "pages/components/typography/TypographyTheme.js"}}
 
-## Changing the semantic element
+## セマンティック要素の変更
 
-The Typography component uses the `variantMapping` property to associate a UI variant with a semantic element. It’s important to realize that the style of a typography is independent from the semantic underlying element.
+Typographyコンポーネントは、 `variantMapping` プロパティを使用して、UIバリアントをセマンティック要素に関連付けます。 It’s important to realize that the style of a typography is independent from the semantic underlying element.
 
 - You can change the underlying element for a one time occasion with the `component` property:
 
@@ -59,7 +59,7 @@ The Typography component uses the `variantMapping` property to associate a UI va
 </Typography>
 ```
 
-- You can change the mapping [globally using the theme](/customization/globals/#default-props):
+- 以下のようにテーマ使用して、[マッピング をグローバルに](/customization/globals/#default-props)変更できます。
 
 ```js
 const theme = createMuiTheme({
