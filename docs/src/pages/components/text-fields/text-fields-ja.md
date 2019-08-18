@@ -145,7 +145,7 @@ function MyInputComponent(props) {
 
 ## アクセシビリティ
 
-In order for the text field to be accessible, **the input should be linked to the label and the helper text**. The underlying DOM nodes should have this structure.
+テキストフィールドにアクセスできるようにするには **、入力をラベルおよびヘルパーテキストにリンクする必要があります**。 基礎となるDOMノードにはこの構造が必要です。
 
 ```jsx
 <div class="form-control">
@@ -155,8 +155,8 @@ In order for the text field to be accessible, **the input should be linked to th
 </div>
 ```
 
-- If you are using the `TextField` component, you just have to provide a unique `id`.
-- If you are composing the component:
+- `TextField` コンポーネントを使用している場合は、一意の `id`を指定するだけです。
+- コンポーネントを構成している場合は
 
 ```jsx
 <FormControl>
@@ -171,5 +171,5 @@ In order for the text field to be accessible, **the input should be linked to th
 より高度なユースケースのためにあなたは利用することができるかもしれません：
 
 - [redux-form-material-ui](https://github.com/erikras/redux-form-material-ui) Redux FormでMaterial UIを使用しやすくするラッパーコンポーネントのセット。
-- [formik-material-ui](https://github.com/stackworx/formik-material-ui) Bindings for using Material-UI with formik.
-- [final-form-material-ui](https://github.com/Deadly0/final-form-material-ui) A set of wrapper components to facilitate using Material UI with Final Form.
+- [formik-material-ui](https://github.com/stackworx/formik-material-ui) formikでMaterial-UIを使うためのバインディング。
+- [final-form-material-ui](https://github.com/Deadly0/final-form-material-ui) Final FormでMaterial UIを使いやすくするためのラッパーコンポーネントのセット。
