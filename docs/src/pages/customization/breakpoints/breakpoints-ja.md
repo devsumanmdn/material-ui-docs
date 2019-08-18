@@ -169,7 +169,7 @@ const styles = theme => ({
 
 #### 戻り値
 
-`media query`: A media query string ready to be used with JSS, which matches screen widths greater than the screen size given by the breakpoint key in the first argument and less than the the screen size given by the breakpoint key in the second argument.
+`media query` ：JSSですぐに使用できるメディアクエリ文字列。最初の引数のブレークポイントキーで指定された画面サイズより大きく、2番目の引数のブレークポイントキーで指定された画面サイズより小さい画面幅に一致します。
 
 #### 例
 
@@ -203,7 +203,7 @@ Some implementation details that might be interesting to being aware of:
 
 1. `オプション` (*オプジェクト* [任意]): 
   - `options.withTheme` (*ブール値* [任意]): デフォルト値 `false`. Provide the `theme` object to the component as a property.
-  - `options.noSSR` (*ブール値* [任意]): デフォルト値 `false`. In order to perform the server-side rendering reconciliation, it needs to render twice. A first time with nothing and a second time with the children. This double pass rendering cycle comes with a drawback. The UI might blink. You can set this flag to `true` if you are not doing server-side rendering.
+  - `options.noSSR` (*ブール値* [任意]): デフォルト値 `false`. サーバー側のレンダリング調整を実行するには、2回レンダリングする必要があります。 1回目は何もない状態で、2回目は子要素と一緒です。 このダブルパスレンダリングサイクルには欠点があります。 The UI might blink. You can set this flag to `true` if you are not doing server-side rendering.
   - `options.initialWidth` (*Breakpoint* [optional]): As `window.innerWidth` is unavailable on the server, we default to rendering an empty component during the first mount. You might want to use an heuristic to approximate the screen width of the client browser screen width. For instance, you could be using the user-agent or the client-hints. https://caniuse.com/#search=client%20hint, we also can set the initial width globally using [`custom properties`](/customization/globals/#default-props) on the theme. In order to set the initialWidth we need to pass a custom property with this shape:
 
 ```js
