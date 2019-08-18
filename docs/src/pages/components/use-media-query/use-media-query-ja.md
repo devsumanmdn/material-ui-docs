@@ -109,13 +109,13 @@ describe('MyTests', () => {
 
 1. `query` （*String* | *Function*）：処理するメディアクエリを表す文字列、または文字列を返す（コンテキスト内の）テーマを受け入れるコールバック関数。
 2. `オプション` (*オプジェクト* [任意]): 
-  - `options.defaultMatches` （*Boolean* [optional]）： `window.matchMedia（）` はサーバーで使用できないため、 最初のマウント時にデフォルトの一致を返します。 The default value is `false`.
-  - `options.noSsr` (*ブール値* [任意]): デフォルト値 `false`. サーバー側のレンダリング調整を実行するには、2回レンダリングする必要があります。 1回目は何もない状態で、2回目は子要素と一緒です。 このダブルパスレンダリングサイクルには欠点があります。 遅いです。 You can set this flag to `true` if you are **not doing server-side rendering**.
-  - `options.ssrMatchMedia` (*Function* [optional]) You might want to use an heuristic to approximate the screen of the client browser. For instance, you could be using the user-agent or the client-hint https://caniuse.com/#search=client%20hint. You can provide a global ponyfill using [`custom props`](/customization/globals/#default-props) on the theme. Check the [server-side rendering example](#server-side-rendering).
+  - `options.defaultMatches` （*Boolean* [optional]）： `window.matchMedia（）` はサーバーで使用できないため、 最初のマウント時にデフォルトの一致を返します。 既定値は`false`です。
+  - `options.noSsr` (*ブール値* [任意]): デフォルト値 `false`. サーバー側のレンダリング調整を実行するには、2回レンダリングする必要があります。 1回目は何もない状態で、2回目は子要素と一緒です。 このダブルパスレンダリングサイクルには欠点があります。 遅いです。 サーバ側でレンダリングを`実行しない`場合は、このフラグを`true`に設定します。
+  - `options.ssrMatchMedia` （*機能* [optional]）あなたが近似するヒューリスティックを使用する場合があります クライアントブラウザの画面を表示します。 For instance, you could be using the user-agent or the client-hint https://caniuse.com/#search=client%20hint. テーマで [`custom props`](/customization/globals/#default-props) を使用してグローバルポニーフィルを提供できます。 [サーバー側レンダリングの例](#server-side-rendering)確認してください。
 
 #### 戻り値
 
-`matches`: Matches is `true` if the document currently matches the media query and `false` when it does not.
+`matches`：ドキュメントが現在メディアクエリと一致する場合は`true` 、一致しない場合は`false`になります。
 
 #### 例
 
