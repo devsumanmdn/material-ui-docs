@@ -354,7 +354,7 @@ function App() {
 export default App;
 ```
 
-## Server-side rendering
+## サーバーサイドレンダリング
 
 This example returns a string of HTML and inlines the critical CSS required, right before it’s used:
 
