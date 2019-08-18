@@ -4,7 +4,7 @@
 
 ## はじめに
 
-`@material-ui/system` provides low-level utility functions called "*style functions*" for building powerful design systems. Some of the key features:
+`@material-ui/system` provides low-level utility functions called "*style functions*" for building powerful design systems. 主な機能の一部：
 
 - ⚛️ Access the theme values directly from the component props.
 - 🦋 Encourage UI consistency.
