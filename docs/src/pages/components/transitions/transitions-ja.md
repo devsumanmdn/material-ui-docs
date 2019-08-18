@@ -47,22 +47,22 @@ export default Main() {
 
 子要素の中心から外側に拡張し、同時にフェードインします。 透明から不透明へ。
 
-The second example demonstrates how to change the `transform-origin`, and conditionally applies the `timeout` property to change the entry speed.
+次の例では、 `transform-origin`を変更する方法を示し、条件付きで適用します。 `timeout` プロパティを使用して、進入速度を変更します。
 
 {{"demo": "pages/components/transitions/SimpleGrow.js"}}
 
 ## Slide
 
-Slide in from the edge of the screen. The `direction` property controls which edge of the screen the transition starts from.
+画面の端からスライドします。 `direction` プロパティは、画面のどの端からトランジションを開始するかを制御します。
 
-The Transition component's `mountOnEnter` property prevents the child component from being mounted until `in` is `true`. This prevents the relatively positioned component from scrolling into view from it's off-screen position. Similarly the `unmountOnExit` property removes the component from the DOM after it has been transition off screen.
+トランジションコンポーネントの `mountOnEnter`プロパティーにより、 `in`が`true`になるまで。子コンポーネントがマウントされないようにします これにより、相対的に配置されたコンポーネントが画面外の位置からビューにスクロールするのを防ぐことができます。 同様に、 `unmountOnExit` プロパティは、画面外に遷移した後、DOMからコンポーネント を削除します。
 
 {{"demo": "pages/components/transitions/SimpleSlide.js"}}
 
 ## Zoom
 
-Expand outwards from the center of the child element.
+子要素の中心から外側に展開します。
 
-This example also demonstrates how to delay the enter transition.
+この例は、入力遷移を遅らせる方法も示しています。
 
 {{"demo": "pages/components/transitions/SimpleZoom.js"}}
