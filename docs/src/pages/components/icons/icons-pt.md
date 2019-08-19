@@ -29,7 +29,7 @@ O ícone resultante pode ser usado como está, ou incluído como filho para outr
 
 #### Uso
 
-You can use our [internal search](/components/material-icons/) or [material.io/tools/icons](https://material.io/tools/icons/?style=baseline) to find a specific icon. Ao importar um ícone, tenha em mente que os nomes dos ícones são `PascalCase`, por exemplo:
+Você pode usar nossa [procura interna](/components/material-icons/) ou [material.io/tools/icons](https://material.io/tools/icons/?style=baseline) para encontrar um ícone específico. Ao importar um ícone, tenha em mente que os nomes dos ícones são `PascalCase`, por exemplo:
 
 - [`delete`](https://material.io/tools/icons/?icon=delete&style=baseline) é exposto como `@material-ui/icons/Delete`
 - [`delete forever`](https://material.io/tools/icons/?icon=delete_forever&style=baseline) é exposto como `@material-ui/icons/DeleteForever`
