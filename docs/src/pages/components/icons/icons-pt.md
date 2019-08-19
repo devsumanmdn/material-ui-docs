@@ -21,7 +21,7 @@ O ícone resultante pode ser usado como está, ou incluído como filho para outr
 
 ### SVG Material Ícones
 
-É interessante ter as ferramentas necessárias para implementar ícones customizados, mas com quais predefinições? [@material-ui/icons](https://www.npmjs.com/package/@material-ui/icons) is an npm package that includes the 1,000+ official [Material icons](https://material.io/tools/icons/?style=baseline) converted to `SvgIcon` components.
+É interessante ter as ferramentas necessárias para implementar ícones customizados, mas com quais predefinições? [@material-ui/icons](https://www.npmjs.com/package/@material-ui/icons) é um pacote npm que inclui mais de 1000 [ícones oficiais da Material](https://material.io/tools/icons/?style=baseline) convertidos para componentes `SvgIcon`.
 
 <a href="/components/material-icons/">
   <img src="/static/images/icons/icons.png" alt="Material oficial de ícones" style="width: 566px" />
