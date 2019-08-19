@@ -51,9 +51,9 @@ Há três exceções para esta regra:
 
 #### Importações
 
-You can import the icons with one of these two options:
+Você pode importar os ícones com uma destas duas opções:
 
-- Option n°1:
+- Opção n ° 1:
 
 ```jsx
   import AccessAlarmIcon from '@material-ui/icons/AccessAlarm';
